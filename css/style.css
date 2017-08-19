@@ -1,0 +1,293 @@
+ul {
+    padding-left: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;    
+}
+header {
+    background: url(../img/rawbg1.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+.navbar {
+    background-color: #225470;
+}
+
+.nav-style a{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+}
+.nav-style a:hover{
+    color: #225470;
+    background-color: #fff!important;
+}
+a:hover{
+    text-decoration: none;
+}
+.icon-bar{
+    background: #fff;
+}
+.bn-font{
+    font-family: 'Kalpurush';
+}
+.en-font {
+    font-family: 'oxygenlight';
+}
+.banner {
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+}
+.banner h1 {
+    font-family: 'Kalpurush';
+    color: #fff;
+    margin: 130px 0px 75px 0px;
+}
+.banner button {
+    padding: 15px 55px;
+    font-size: 21px;
+    font-family: 'Kalpurush';
+    margin-bottom: 100px;
+}
+.bord-thin {
+    border: 1px solid rgba(0,94,166,.1);
+    border-radius: 3px;
+}
+.delf-marg {
+    margin: 25px 0px 35px 0px;
+}
+.sect-title {
+    margin-top: 45px;
+}
+hr {
+    background-color: #005EA6;
+    height: 1px;
+}
+.sect-title h1{
+    font-size: 32px;
+}
+.delf-box {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background: url(../img/delf_logo.png) no-repeat center;
+    background-size: cover;
+}
+
+.delf-box h1{
+    margin-top: 0px;
+    padding: 10px 0px;
+    color: #fff;
+    font-weight: 300;
+}
+.a1-bg h1{
+    background-color: #FE9024;
+}
+.a2-bg h1{
+    background-color: #2A90DE;
+}
+.b1-bg h1{
+    background-color: #005EA6;
+}
+.resource-box h1 {
+    background-color: #7BB304;
+}
+.delf-box h2{
+    margin-top: -10px;
+    line-height: 140px;
+    background: rgba(0,94,166,.9);
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-delf {
+    width: 100%;
+    height: 48px;
+    margin-top: -10px;
+    font-size: 17px;
+    border-radius: 0;
+}
+.sect-why {
+    background: url(../img/people.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 45px;
+}
+.why-bg {
+    background-color: rgba(0,0,0,.7);
+}
+.sect-why h1, .why-photo img{
+    margin-top: 75px;
+    color: #fff;
+    text-align: left;
+    
+}
+.why-text ul {
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+.why-text ul li{
+    display: inherit;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.why-photo img {
+    width: 100%;
+}
+
+.blog-home {
+    margin: 45px 0px;
+}
+.blog-box {
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.blog-head-photo img{
+    width: 100%;
+    height: 85px;
+}
+.blog-box-text {
+    padding: 15px;
+    overflow: hidden;
+    
+}
+.blog-box-text h2{
+    font-size: 21px;
+    font-weight: 600;
+    color: #222;
+}
+.blog-box-text p{
+    color: #222;
+    font-size: 15px;
+}
+
+.blog-author-icon {
+    margin-left: -15px!important;
+}
+.blog-author-icon img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.blog-author-icon ul li {
+    display: inherit;
+}
+.blog-author-icon ul li:first-child {
+    font-size: 17px;
+}
+.share-icons ul li{
+    font-size: 14px;
+    color: #222;
+}
+
+.share-icons ul i{
+    font-size: 21px;
+    padding: 5px;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-twitter-square {
+    color: #0084b4;
+}
+.fa-google-plus-square {
+    color: #d34836;
+}
+footer {
+    background-color: #225470;
+    color: #fff;
+    font-size: 16px;
+}
+
+.site-tile, .support, .foot-menu, .foot-social {
+    margin: 45px 0px;
+    
+}
+.site-tile a{
+    margin: 25px 0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.email {
+    font-size: 14px!important;
+}
+.foot-menu {
+    margin-bottom: 0px;
+}
+.foot-menu ul li{
+    display: inherit;
+    margin: 5px 0px;
+    
+}
+.foot-menu ul li a {
+    font-size: 15px;
+    color: #fff;
+}
+.foot-menu ul li a:hover{
+    background: none!important;
+    text-decoration: underline;
+}
+.foot-social a{
+    color: #fff;
+    font-size: 19px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.foot-social a:hover{
+    background-color: #fff;
+}
+.fa-facebook:hover {
+    color: #3b5998;
+}
+.fa-twitter:hover {
+    color: #0084b4;
+}
+.fa-google-plus:hover {
+    color: #d34836;
+}
+.support h2{
+    font-size: 17px;
+    line-height: 22.5px;
+}
+.support-btn {
+    margin-bottom: 15px;
+}
+.payment-icon {
+    background-color: rgba(255,255,255,.8);
+}
+.payment-icon li{
+    margin: 0px 10px;
+}
+.copyright {
+    background: #204056;
+    padding: 5px;
+    margin-top: 15px;
+}
+.copyright p{
+    margin: 10px 0px;
+    font-size: 14px;    
+}
+.copyright a {
+    color: #fff!important;
+}
+
+
+
+
+.page-banner {
+    text-align: center;
+}
+
+.page-log img{
+    width: 100%;
+}
