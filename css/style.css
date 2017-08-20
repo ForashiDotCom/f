@@ -1,3 +1,13 @@
+.course-page-bgc {
+    background: #225470;
+}
+.bg-inh {
+    background: none;
+}
+.course-head {
+    background: #204056;
+    color: #fff;
+}
 ul {
     padding-left: 0;
 }
@@ -56,7 +66,7 @@ a:hover{
     border-radius: 3px;
 }
 .delf-marg {
-    margin: 25px 0px 35px 0px;
+    margin: 55px 0px 35px 0px;
 }
 .sect-title {
     margin-top: 45px;
@@ -74,6 +84,7 @@ hr {
     text-align: center;
     background: url(../img/delf_logo.png) no-repeat center;
     background-size: cover;
+    margin-bottom: 25px;
 }
 
 .delf-box h1{
@@ -109,11 +120,13 @@ hr {
     font-size: 17px;
     border-radius: 0;
 }
+.btn-leson {
+    background: #225470;
+}
 .sect-why {
     background: url(../img/people.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 45px;
 }
 .why-bg {
     background-color: rgba(0,0,0,.7);
@@ -141,7 +154,7 @@ hr {
 }
 
 .blog-home {
-    margin: 45px 0px;
+    margin: 55px 0px;
 }
 .blog-box {
     margin-bottom: 10px;
@@ -205,6 +218,7 @@ footer {
     background-color: #225470;
     color: #fff;
     font-size: 16px;
+    margin-top: 45px;
 }
 
 .site-tile, .support, .foot-menu, .foot-social {
@@ -284,10 +298,60 @@ footer {
 
 
 
-.page-banner {
-    text-align: center;
+.course-page-logo img{
+    background: #225470;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.course-menu ul {
+    padding-left: 0px;
+    background: #46C9B6;
+    margin-top: 15px;;
 }
 
-.page-log img{
+
+.active-course li{
+    background: #fff;
+    color: #225470!important;
+}
+
+.course-menu ul a li {
+    border-bottom: .1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px;
     width: 100%;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.course-menu ul a li:hover {
+    background: #fff;
+    color: #225470;
+    transition: background-color 0.5s ease;
+}
+.course-title ul li {
+    margin: 0px 10px;
+}
+.course-title h1{
+    font-size: 26px;
+}
+.course-wrapper {
+    margin-top: 25px;
+}
+.alpha {
+    margin: 0px 5px 5px 0px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    background: #46C9B6;
+    color: #fff;
+}
+.alpha h2{
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: 800;
+    border-bottom: 1px solid #fff;
+}
+.bn-alpha {
+    font-size: 21px;
 }
