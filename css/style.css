@@ -48,8 +48,8 @@ a:hover{
     text-decoration: none;
 }
 .icon-bar{
-    background: #fff;
-    margin-top: 15px;
+    background: #e3e3e3;
+    margin-top: 18px;
 }
 .bn-font{
     font-family: 'Kalpurush';
@@ -373,13 +373,20 @@ footer {
     .only-pc {
         display: none;
     }
+    .navbar-brand {
+        margin-left: -30px;
+    }
     .slogan-home {
-        margin-left: 25px;
-        margin-bottom: 15px;
-        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+        margin-left: -30px;
+        margin-top: 5px;
     }
     .slogan-course{
-        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+        margin-left: -12px;
+        margin-top: 5px;
         margin-bottom: 0px;
     }
     .course-title-top{
