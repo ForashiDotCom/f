@@ -76,9 +76,7 @@ a:hover{
     border: 1px solid rgba(0,94,166,.1);
     border-radius: 3px;
 }
-.delf-marg {
-    margin: 55px 0px 35px 0px;
-}
+
 .sect-title {
     margin-top: 45px;
 }
@@ -89,48 +87,7 @@ hr {
 .sect-title h1{
     font-size: 32px;
 }
-.delf-box {
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    background: url(../img/delf_logo.png) no-repeat center;
-    background-size: cover;
-    margin-bottom: 25px;
-}
 
-.delf-box h1{
-    margin-top: 0px;
-    padding: 10px 0px;
-    color: #fff;
-    font-weight: 300;
-}
-.a1-bg h1{
-    background-color: #FE9024;
-}
-.a2-bg h1{
-    background-color: #2A90DE;
-}
-.b1-bg h1{
-    background-color: #005EA6;
-}
-.resource-box h1 {
-    background-color: #7BB304;
-}
-.delf-box h2{
-    margin-top: -10px;
-    line-height: 140px;
-    background: rgba(0,94,166,.9);
-    color: #fff;
-    font-weight: 600;
-}
-
-.btn-delf {
-    width: 100%;
-    height: 48px;
-    margin-top: -10px;
-    font-size: 17px;
-    border-radius: 0;
-}
 .btn-leson {
     background: #225470;
     margin: 15px;
@@ -338,7 +295,9 @@ footer {
     font-size: 21px;
     font-weight: 300;
 }
-
+.days {
+    overflow: hidden;
+}
 .days ul li{
     width: 170px;
     height: 160px;
@@ -351,9 +310,25 @@ footer {
     border: 1px solid #2A90DE;
     float: left;
 }
+.course-cat{
+    margin-bottom: 10px;
+}
+
+.course-cat h1{
+    font-size: 26px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: #2A90DE;
+}
+.course-cat p{
+    margin-bottom: 0px;
+    border-bottom: 1px solid #2A90DE;
+    font-size: 26px!important;
+}
+
 .days h2{
     line-height: 60px;
-    font-size: 22px;
+    font-size: 21px;
     text-transform: uppercase;
     letter-spacing: .5px;
     border-bottom: 1px solid #2A90DE;
@@ -362,6 +337,7 @@ footer {
 .days p {
     font-size: 19px;
 }
+
 @media only screen and (max-width: 768px) {
     .days ul li, .sm-fs {
         float: none;
@@ -376,17 +352,18 @@ footer {
     .navbar-brand {
         margin-left: -30px;
     }
+    .home-logo {
+        margin-left: 0px;
+    }
     .slogan-home {
-        text-align: center;
-        font-size: 16px;
-        margin-left: -30px;
-        margin-top: 5px;
+        font-size: 15px;
+        margin-left: 25px;
+        margin-top: 35px;
     }
     .slogan-course{
-        text-align: center;
-        font-size: 16px;
-        margin-left: -12px;
-        margin-top: 5px;
+        font-size: 15px;
+        margin-left: -5px;
+        margin-top: 35px;
         margin-bottom: 0px;
     }
     .course-title-top{
@@ -394,6 +371,10 @@ footer {
         font-size: 19px!important;
         margin-bottom: 18px;
     }
+    .nav-style li{
+        border-bottom: 1px solid #fff;
+    }
+   
 }
 .mt-35 {
     margin-top: 35px;
@@ -419,6 +400,7 @@ footer {
 
 .course-title-top {
     font-size: 26px;
+    margin-top: 25px;
 }
 
 
