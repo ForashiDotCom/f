@@ -123,67 +123,6 @@ hr {
     width: 100%;
 }
 
-.blog-home {
-    margin: 55px 0px;
-}
-.blog-box {
-    margin-bottom: 10px;
-    border: 1px solid rgba(0,0,0,.1);
-}
-.blog-head-photo img{
-    width: 100%;
-    height: 85px;
-}
-.blog-box-text {
-    padding: 15px;
-    overflow: hidden;
-    
-}
-.blog-box-text h2{
-    font-size: 21px;
-    font-weight: 600;
-    color: #222;
-}
-.blog-box-text p{
-    color: #222;
-    font-size: 15px;
-}
-
-.blog-author-icon {
-    margin-left: -15px!important;
-}
-.blog-author-icon img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50px;
-    margin-right: 10px;
-    float: left;
-}
-
-.blog-author-icon ul li {
-    display: inherit;
-}
-.blog-author-icon ul li:first-child {
-    font-size: 17px;
-}
-.share-icons ul li{
-    font-size: 14px;
-    color: #222;
-}
-
-.share-icons ul i{
-    font-size: 21px;
-    padding: 5px;
-}
-.fa-facebook-square {
-    color: #3b5998;
-}
-.fa-twitter-square {
-    color: #0084b4;
-}
-.fa-google-plus-square {
-    color: #d34836;
-}
 footer {
     background-color: #225470;
     color: #fff;
