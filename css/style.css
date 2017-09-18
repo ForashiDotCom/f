@@ -3,6 +3,10 @@
     font-size: 18px;
     color: #fff;
 }
+.navbar-right li a{
+    font-size: 18px;
+    padding: 15px;;
+}
 .slogan-course {
     margin-left: 25px;
 }
@@ -23,11 +27,7 @@ ul li{
     list-style: none;
     display: inline-block;    
 }
-header {
-    background: url(../img/rawbg1.jpg) center no-repeat;
-    background-size: cover;
-    
-}
+
 .navbar {
     background-color: #225470;
 }
@@ -59,15 +59,24 @@ a:hover{
 .en-font {
     font-family: 'oxygenlight';
 }
-.banner {
+.banner, .banner-beginner {
     text-align: center;
-    background-color: rgba(0,0,0,.3);
+    background: url(../img/rawbg1.jpg) center no-repeat;
+    background-size: cover;
 }
-.banner h1 {
+.banner-beginner {
+    background: url(../img/bonjour.jpg) center no-repeat;
+    text-transform: uppercase;
+}
+.banner-overlay {
+    background-color: rgba(0,0,0,.6);
+}
+.banner h1, .banner-beginner h1{
     font-family: 'Kalpurush';
     color: #fff;
     margin: 130px 0px 75px 0px;
 }
+
 .banner button {
     padding: 15px 55px;
     font-size: 21px;
@@ -193,8 +202,26 @@ footer {
     color: #fff!important;
 }
 
+.hambox {
+    width: 50%;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 45px;
+    color: #fff;
+    background: #225470;
+    float: left;
+    height: 125px;
+}
+.hambox p{
+    margin: 0px;
+}
 
-
+.hambox-img img{
+    width: 50%;
+    margin-top: 45px;
+    height: 125px;
+    border: 1px solid rgba(0,0,0,.5);
+}
 
 .course-page-logo img{
     background: #225470;
@@ -215,10 +242,6 @@ footer {
 .course-title h1{
     font-size: 26px;
 }
-.course-wrapper {
-    margin-top: 25px;
-}
-
 .bn-alpha {
     font-size: 21px;
     font-weight: 300;
@@ -271,7 +294,6 @@ footer {
     margin-top: 35px;
 }
 .course-nav {
-    margin-bottom: 25px;
     background: #225470;
     border-radius: 2px;
 }
@@ -282,9 +304,11 @@ footer {
     font-size: 17px;
     border-bottom: .3px solid #fff;
 }
+
+
 .no-padd {
     padding: 0;
-    margin-right: -10px!important;
+    margin-right: 0px!important;
 }
 .course-nav li:hover{
     background: #e3e3e3;
@@ -298,7 +322,16 @@ footer {
     text-transform: uppercase;
 }
 
-
+.main-menu-links {
+    margin-bottom: -25px;
+}
+.main-menu-links ul li a{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.main-menu-links ul li a:hover{
+    text-decoration: inherit;
+}
 .mt-0 {
     margin-top: -15px!important;
 }
@@ -311,7 +344,10 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-    
+    .main-menu-links {
+        margin-top: 25px;
+        text-align: center;
+    }
     .days ul li, .sm-fs {
         float: none;
     }
