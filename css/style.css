@@ -59,6 +59,12 @@ a:hover{
 .en-font {
     font-family: 'oxygenlight';
 }
+.fr-font {
+    font-family: 'Parisienne';
+}
+.no-uppercase {
+    text-transform: none;
+}
 .banner, .banner-beginner {
     text-align: center;
     background: url(../img/rawbg1.jpg) center no-repeat;
@@ -150,7 +156,9 @@ footer {
     font-size: 16px;
     color: #fff;
 }
-
+.fa-envelope {
+    margin-bottom: 10px;
+}
 .email {
     font-size: 14px!important;
 }
@@ -159,11 +167,10 @@ footer {
 }
 .foot-menu ul li{
     display: inherit;
-    margin: 5px 0px;
-    
+    margin: 10px 0px;
 }
 .foot-menu ul li a {
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
 }
 .foot-menu ul li a:hover{
@@ -260,6 +267,26 @@ footer {
     text-align: center;
     border: 1px solid #2A90DE;
     float: left;
+}
+.alpha ul li h2{
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.alpha ul li p {
+    font-size: 17px;
+}
+.accents h1{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.accents-text {
+    font-size: 18px;
+    color: #222;
+}
+.acc-char {
+    padding: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .course-cat{
     margin-bottom: 10px;
@@ -396,10 +423,19 @@ footer {
    .course-cat h1{
     font-size: 22px;
 }
+    .accents h1 {
+        font-size: 19px;
+    }
+    .accents-text{
+        font-size: 15px;
+    }
 
 }
 @media only screen and (max-width: 320px) {
     
+    .alpha ul li h2{
+    font-size: 22px;
+}
     .days ul li{
     width: 110px;
     height: auto;
