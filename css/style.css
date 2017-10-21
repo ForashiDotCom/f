@@ -271,6 +271,7 @@ footer {
     border: 1px solid #2A90DE;
     float: left;
 }
+
 .alpha ul li h2{
     font-size: 26px;
     padding-bottom: 15px;
@@ -279,16 +280,14 @@ footer {
     font-size: 17px;
 }
 .accents h1{
-    text-transform: uppercase;
     font-size: 26px;
 }
 .accents-text {
-    font-size: 18px;
-    color: #222;
+    font-size: 17px;
 }
 .acc-char {
     padding: 2px;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
 }
 .course-cat{
@@ -462,13 +461,18 @@ footer {
 
 
 .dialoge p{
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 17.5px;
+    line-height: 20px;
 }
-
+.dialoge p:nth-child(2) {
+    font-size: 17px;
+}
 .dialoge hr {
     margin-top: 0px;
 }
 .border-l {
     border-left: 1px solid #e3e3e3;
+}
+.alphabet p{
+    font-size: 21px;
 }
