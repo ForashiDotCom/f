@@ -448,3 +448,9 @@ footer {
 .mb-35 {
     margin-bottom: 35px;
 }
+.conjug-title {
+    font-size: 19px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #222;
+    margin: 0px 0px 15px 0px;
+}
