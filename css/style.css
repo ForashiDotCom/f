@@ -65,6 +65,7 @@ a:hover{
 .fr-font {
     font-family: 'Parisienne';
 }
+
 .no-uppercase {
     text-transform: none;
 }
@@ -475,4 +476,15 @@ footer {
 }
 .alphabet p{
     font-size: 21px;
+}
+
+.numbers p {
+    font-size: 17px;
+}
+
+.sm-font {
+    font-size: 16px!important;
+}
+.xsm-font {
+    font-size: 14px!important;
 }
