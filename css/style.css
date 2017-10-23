@@ -384,7 +384,8 @@ footer {
     .btn-primary {
     background: #225470;
     width: 95%;
-
+    height: 48px;
+    font-size: 17px;
 }
     
     
@@ -427,6 +428,12 @@ footer {
 }
 .dialoge hr {
     margin-top: 0px;
+}
+.dialoge h4 {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 .border-l {
     border-left: 1px solid #e3e3e3;
